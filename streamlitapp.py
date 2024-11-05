@@ -20,6 +20,7 @@ st.subheader("Task 1: Visualization")
 # Visualizations using Plotly
 fig1 = px. bar(tips, x="day", y="tip")
 fig1.show()
+st.plotly_chart(fig1)
 
 # --- Task 2: Bar Chart ---
 st.subheader("Task 2: Bar Chart")
